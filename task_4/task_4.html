@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.wrapper {
+			width: 1024px;
+			margin: 0 auto;
+		}
+
+		.task {
+			width: 100%;
+		}
+
+		#canvas {
+			display: block;
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+			border: 2px solid red;
+		}
+		.text ol {
+			padding-left: 1em;
+		}
+	</style>
+	
+	<body>
+		<div class="wrapper">
+			<section class="text">
+				<h2>Задание 4</h2>
+				<p>Финишная прямая. Реализуйте игру «Arkanoid».</p>
+				<p><b>Требования:</b></p>
+				<ol>
+					<li>Для отрисовки игры используйте canvas</li>
+					<li>Игру надо сделать без использования сторонних библиотек.</li>
+					<li>Реализуйте один уровень игры арконоид</li>
+					<li>Пользователь должен управлять полоской-платформой внизу</li>
+					<li>Должен быть шарик, который отталкивается от стен, платформы и блоков</li>
+					<li>Должны быть блоки, которые пропадают после столкновения с шариком</li>
+				</ol>
+			</section>
+			<section class="task task4">
+				<canvas id="canvas" width="300" height="300"></canvas>
+			</section>
+		</div>
+	</body>
+    <script src="game.js"></script>
+</html>
